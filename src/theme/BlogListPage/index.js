@@ -38,7 +38,8 @@ function BlogHomepageBanner(props) {
   const imageDefault = {
     urlBannerBg:
       'https://res.cloudinary.com/thanhnam/image/upload/v1696174608/thanhnamnguyen.dev/blog/blog-banner_othakp.png',
-    urlAvatar: 'https://res.cloudinary.com/thanhnam/image/upload/v1715137157/project/logo_wnw5lv.png',
+    urlAvatar:
+      'https://res.cloudinary.com/thanhnam/image/upload/v1715137157/project/docusaurus-material-ui-template/logo_wnw5lv.png',
   };
 
   return (

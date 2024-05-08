@@ -44,8 +44,7 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/master',
+          editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/master',
         },
         blog: false,
         theme: {
@@ -173,22 +172,14 @@ const config = {
         blogSidebarTitle: 'List blog',
         routeBasePath: 'blog',
         include: ['**/*.md', '**/*.mdx'],
-        exclude: [
-          '**/_*.{js,jsx,ts,tsx,md,mdx}',
-          '**/_*/**',
-          '**/*.test.{js,jsx,ts,tsx}',
-          '**/__tests__/**',
-        ],
+        exclude: ['**/_*.{js,jsx,ts,tsx,md,mdx}', '**/_*/**', '**/*.test.{js,jsx,ts,tsx}', '**/__tests__/**'],
         postsPerPage: 6,
         truncateMarker: /<!--\s*(truncate)\s*-->/,
         showReadingTime: true,
         // Please change this to your repo.
         // Remove this to remove the "edit this page" links.
-        editUrl:
-          'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/main/',
-        remarkPlugins: [
-          [require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }],
-        ],
+        editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/main/',
+        remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
       },
     ],
   ],

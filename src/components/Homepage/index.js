@@ -13,22 +13,19 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero', styles.heroBanner)}>
-      <div className='container'>
-        <Heading as='h1' className='hero__title'>
+      <div className="container">
+        <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className='hero__subtitle'>
+        <p className="hero__subtitle">
           {siteConfig.tagline} <br />
-          <Link href='https://github.com/namnguyenthanhwork/docusaurus-material-ui-template'>
+          <Link href="https://github.com/namnguyenthanhwork/docusaurus-material-ui-template">
             Please read README.md for more about project information
           </Link>
         </p>
 
         <div className={styles.buttons}>
-          <Link
-            className='button button--secondary button--lg'
-            to='/docs/intro'
-          >
+          <Link className="button button--secondary button--lg" to="/docs/intro">
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div>
@@ -40,18 +37,12 @@ function HomepageHeader() {
 export default function Home({ homePageBlogMetadata, recentPosts }) {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description='Description will go into a meta tag in <head />'
-    >
+    <Layout title={`Hello from ${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <MusicPlayerSlider />
         <HomepageFeatures />
-        <LatestNews
-          recentPosts={recentPosts}
-          homePageBlogMetadata={homePageBlogMetadata}
-        />
+        <MusicPlayerSlider />
+        <LatestNews recentPosts={recentPosts} homePageBlogMetadata={homePageBlogMetadata} />
       </main>
     </Layout>
   );

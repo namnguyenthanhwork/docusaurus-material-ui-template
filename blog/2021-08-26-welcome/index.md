@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-image: https://res.cloudinary.com/thanhnam/image/upload/v1715137129/project/blog-cover-img_n0vno5.jpg
+image: https://res.cloudinary.com/thanhnam/image/upload/v1715191314/project/docusaurus-material-ui-template/blog-cover_dczcj6.jpg
 authors: [slorber, yangshun, thanhnamnguyen]
 tags: [facebook, hello, docusaurus]
 ---
