@@ -8,11 +8,15 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import MusicPlayerSlider from './MusicPlayerSlider';
 import LatestNews from '../LatestNews';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
+    <header
+      className={clsx('hero', styles.heroBanner)}
+      style={{ backgroundImage: `url('/img/banner.jpg')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
+    >
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
