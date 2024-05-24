@@ -8,6 +8,16 @@
 //  --------------------------------------------------
 
 html[data-theme='dark'] {
+  //
+  //  Header
+  //  --------------------------------------------------
+  .hero {
+    &__title,
+    &__subtitle {
+      color: var(--ifm-color-gray-800);
+    }
+  }
+
   .dropdown__menu,
   pre code,
   .card {
