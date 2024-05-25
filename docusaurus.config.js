@@ -178,7 +178,7 @@ const config = {
         showReadingTime: true,
         // Please change this to your repo.
         // Remove this to remove the "edit this page" links.
-        editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/main/',
+        editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/master/',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],
       },
     ],
