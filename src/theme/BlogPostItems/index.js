@@ -10,13 +10,13 @@ import BlogPostItem from '@theme/BlogPostItem';
 import TagsListInline from '@theme/TagsListInline';
 
 import { Typography, Card, CardHeader, CardMedia, CardContent, CardActions, Avatar, AvatarGroup } from '@mui/material';
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
+import { Grid2 } from '@mui/material';
 
 export default function BlogPostItems({ items, component: BlogPostItemComponent = BlogPostItem }) {
   return (
     <Grid2 container spacing={5} className="blog blog-homepage blog-card">
       {items.map((blog) => (
-        <Grid2 xs={12} sm={6} sx={{ display: 'flex' }} key={blog.content.metadata.permalink}>
+        <Grid2 size={{ xs: 12, sm: 6 }} sx={{ display: 'flex' }} key={blog.content.metadata.permalink}>
           <Card sx={{ backgroundImage: 'unset', backgroundColor: 'transparent', boxShadow: 'none' }}>
             <Link to={blog.content.metadata.permalink}>
               <CardMedia
@@ -42,7 +42,7 @@ export default function BlogPostItems({ items, component: BlogPostItemComponent 
               avatar={
                 <AvatarGroup total={blog.content.metadata.authors.length}>
                   {blog.content.metadata.authors.map((author, index) => (
-                    <Link href={author.url} title={author.name} key={index}>
+                    <Link href={author.page.permalink} title={author.name} key={index}>
                       <Avatar alt={author.name} src={useBaseUrl(author.imageURL)} />
                     </Link>
                   ))}

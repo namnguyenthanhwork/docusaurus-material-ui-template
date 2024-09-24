@@ -6,9 +6,7 @@ import HomepageFeatures from '@site/src/components/Homepage/Features';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import MusicPlayerSlider from './MusicPlayerSlider';
 import LatestNews from '../LatestNews';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -45,7 +43,6 @@ export default function Home({ homePageBlogMetadata, recentPosts }) {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <MusicPlayerSlider />
         <LatestNews recentPosts={recentPosts} homePageBlogMetadata={homePageBlogMetadata} />
       </main>
     </Layout>

@@ -176,7 +176,7 @@ const config = {
         postsPerPage: 6,
         truncateMarker: /<!--\s*(truncate)\s*-->/,
         showReadingTime: true,
-        // Please change this to your repo.
+        onUntruncatedBlogPosts: 'ignore',
         // Remove this to remove the "edit this page" links.
         editUrl: 'https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/tree/master/',
         remarkPlugins: [[require('@docusaurus/remark-plugin-npm2yarn'), { sync: true }]],

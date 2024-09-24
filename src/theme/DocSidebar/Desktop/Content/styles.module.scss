@@ -1,3 +1,8 @@
+// /**
+//  * Copyright @ by Code Lyoko Team. All rights reserved.
+//  * Author: Thành Nam Nguyễn
+//  */
+
 @media (min-width: 997px) {
   .menu {
     flex-grow: 1;
@@ -5,7 +10,7 @@
   }
   @supports (scrollbar-gutter: stable) {
     .menu {
-      padding: 0.5rem;
+      padding: 15px;
       scrollbar-gutter: stable;
     }
   }

@@ -23,8 +23,6 @@ export default function BlogLayout(props) {
               'col--9': hasSidebar && toc,
               'col--9 col--offset-1': !hasSidebar,
             })}
-            itemScope
-            itemType="http://schema.org/Blog"
           >
             {children}
           </main>

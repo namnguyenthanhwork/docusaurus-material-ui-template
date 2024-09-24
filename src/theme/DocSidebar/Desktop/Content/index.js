@@ -1,10 +1,15 @@
+// /**
+//  * Copyright @ by Code Lyoko Team. All rights reserved.
+//  * Author: Thành Nam Nguyễn
+//  */
+
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import { ThemeClassNames } from '@docusaurus/theme-common';
 import { useAnnouncementBar, useScrollPosition } from '@docusaurus/theme-common/internal';
 import { translate } from '@docusaurus/Translate';
 import DocSidebarItems from '@theme/DocSidebarItems';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 function useShowAnnouncementBar() {
   const { isActive } = useAnnouncementBar();
   const [showAnnouncementBar, setShowAnnouncementBar] = useState(isActive);

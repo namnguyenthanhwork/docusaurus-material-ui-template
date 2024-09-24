@@ -21,13 +21,13 @@ import {
   Button,
   AvatarGroup,
 } from '@mui/material';
-import Grid2 from '@mui/material/Unstable_Grid2/Grid2';
+import { Grid2 } from '@mui/material';
 
 function RecentBlogPostCard({ recentPost }) {
   const { blogData } = recentPost;
 
   return (
-    <Grid2 xs={12} sm={6} sx={{ display: 'flex' }}>
+    <Grid2 size={{ xs: 12, sm: 6 }} sx={{ display: 'flex' }}>
       <Card sx={{ backgroundImage: 'unset', backgroundColor: 'transparent', boxShadow: 'none' }}>
         <Link to={blogData.metadata.permalink} className="blog-card__image-link">
           <CardMedia
@@ -53,7 +53,7 @@ function RecentBlogPostCard({ recentPost }) {
           avatar={
             <AvatarGroup total={blogData.metadata.authors.length}>
               {blogData.metadata.authors.map((author, index) => (
-                <Link href={author.url} title={author.name} key={index}>
+                <Link href={author.page.permalink} title={author.name} key={index}>
                   <Avatar alt={author.name} src={useBaseUrl(author.imageURL)} />
                 </Link>
               ))}

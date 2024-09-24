@@ -3,15 +3,16 @@
 //  * Author: Thành Nam Nguyễn
 //  */
 
-import { getInitColorSchemeScript } from '@mui/material/styles';
-import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/styles';
+import React from 'react';
+import InitColorSchemeScript from '@mui/material/InitColorSchemeScript';
+import { ThemeProvider } from '@mui/material/styles';
 import theme from '@site/src/components/MuiTheme';
 
 export default function Root({ children }) {
   return (
     <>
-      {getInitColorSchemeScript()}
-      <CssVarsProvider theme={theme}>{children}</CssVarsProvider>
+      <InitColorSchemeScript />
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>
     </>
   );
 }

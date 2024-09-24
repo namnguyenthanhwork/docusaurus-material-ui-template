@@ -3,28 +3,10 @@
 //  * Author: Thành Nam Nguyễn
 //  */
 
-import { experimental_extendTheme as extendTheme } from '@mui/material/styles';
+import { extendTheme } from '@mui/material/styles';
 
 const extTheme = extendTheme({
-  colorSchemes: {
-    light: {
-      palette: {
-        info: {
-          main: '#cce5ff',
-        },
-      },
-    },
-    dark: {
-      palette: {
-        primary: {
-          main: '#8b8bc6',
-        },
-        background: {
-          paper: '#1d2144',
-        },
-      },
-    },
-  },
+  colorSchemes: { light: true },
 });
 
 export default extTheme;

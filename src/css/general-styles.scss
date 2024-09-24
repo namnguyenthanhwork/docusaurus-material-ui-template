@@ -44,6 +44,10 @@ html[data-theme='dark'] {
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 //
 //  Navbar
 //  --------------------------------------------------
