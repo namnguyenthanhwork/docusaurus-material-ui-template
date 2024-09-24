@@ -1,7 +1,16 @@
 {
   "name": "docusaurus-material-ui-template",
+  "description": "Intergrating Material UI with Docusaurus website template",
   "author": "Thành Nam Nguyễn",
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namnguyenthanhwork/docusaurus-material-ui-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/issues"
+  },
+  "homepage": "https://github.com/namnguyenthanhwork/docusaurus-material-ui-template#readme",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -15,29 +24,29 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "3.3.2",
-    "@docusaurus/preset-classic": "3.3.2",
-    "@docusaurus/plugin-ideal-image": "^3.3.2",
-    "@docusaurus/remark-plugin-npm2yarn": "^3.3.2",
-    "@easyops-cn/docusaurus-search-local": "^0.41.0",
-    "@fontsource/roboto": "^5.0.13",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/icons-material": "^5.15.18",
-    "@mui/lab": "^5.0.0-alpha.170",
-    "@mui/material": "^5.15.18",
+    "@docusaurus/core": "^3.5.2",
+    "@docusaurus/preset-classic": "^3.5.2",
+    "@docusaurus/plugin-ideal-image": "^3.5.2",
+    "@docusaurus/remark-plugin-npm2yarn": "^3.5.2",
+    "@easyops-cn/docusaurus-search-local": "^0.44.5",
+    "@fontsource/roboto": "^5.1.0",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/lab": "^6.0.0-beta.10",
+    "@mui/material": "^6.1.1",
     "@mdx-js/react": "^3.0.1",
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
-    "prism-react-renderer": "^2.3.1",
+    "prism-react-renderer": "^2.4.0",
     "docusaurus-plugin-sass": "^0.2.5",
-    "styled-components": "^6.1.11",
+    "styled-components": "^6.1.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.3.2",
-    "@docusaurus/types": "3.3.2"
+    "@docusaurus/module-type-aliases": "^3.5.2",
+    "@docusaurus/types": "^3.5.2"
   },
   "browserslist": {
     "production": [
