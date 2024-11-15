@@ -35,6 +35,10 @@ const config = {
     locales: ['en'],
   },
 
+  future: {
+    experimental_faster: true,
+  },
+
   presets: [
     [
       'classic',
