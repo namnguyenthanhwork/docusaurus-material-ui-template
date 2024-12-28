@@ -7,6 +7,6 @@
 //  Imports
 //  --------------------------------------------------
 
-@import '_variables.scss';
-@import 'general-styles.scss';
-@import 'responsive.scss';
+@use '_variables.scss';
+@use 'general-styles.scss';
+@use 'responsive.scss';

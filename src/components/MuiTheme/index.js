@@ -3,10 +3,13 @@
 //  * Author: Thành Nam Nguyễn
 //  */
 
-import { extendTheme } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
 
-const extTheme = extendTheme({
-  colorSchemes: { light: true },
+const extTheme = createTheme({
+  colorSchemes: { light: true, dark: true },
+  cssVariables: {
+    colorSchemeSelector: 'data',
+  },
 });
 
 export default extTheme;
