@@ -10,7 +10,7 @@
     "url": "https://github.com/namnguyenthanhwork/docusaurus-material-ui-template/issues"
   },
   "homepage": "https://github.com/namnguyenthanhwork/docusaurus-material-ui-template#readme",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -30,17 +30,17 @@
     "@docusaurus/preset-classic": "^3.6.3",
     "@docusaurus/remark-plugin-npm2yarn": "^3.6.3",
     "@easyops-cn/docusaurus-search-local": "^0.46.1",
-    "@emotion/react": "^11.13.5",
-    "@emotion/styled": "^11.13.5",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@fontsource/roboto": "^5.1.0",
     "@mdx-js/react": "^3.1.0",
-    "@mui/icons-material": "^6.1.9",
-    "@mui/lab": "^6.0.0-beta.17",
-    "@mui/material": "^6.1.9",
+    "@mui/icons-material": "^6.3.0",
+    "@mui/lab": "^6.0.0-beta.21",
+    "@mui/material": "^6.3.0",
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
-    "docusaurus-plugin-sass": "^0.2.5",
-    "prism-react-renderer": "^2.4.0",
+    "docusaurus-plugin-sass": "^0.2.6",
+    "prism-react-renderer": "^2.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.13"
@@ -60,8 +60,5 @@
       "last 3 firefox version",
       "last 5 safari version"
     ]
-  },
-  "engines": {
-    "node": ">=18.0"
   }
 }
